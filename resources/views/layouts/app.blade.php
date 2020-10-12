@@ -30,7 +30,7 @@
           <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-laugh-wink"></i>
           </div>
-          <div class="sidebar-brand-text mx-3">LRK-DESP <sup>1</sup></div>
+          <div class="sidebar-brand-text mx-3">LaRoka-DESP <sup>1</sup></div>
         </a>
   
         <!-- Divider -->
@@ -261,7 +261,7 @@
         <footer class="sticky-footer bg-white">
           <div class="container my-auto">
             <div class="copyright text-center my-auto">
-              <span>Copyright &copy; Stivens Espinoza</span>
+              <span>Copyright &copy; Deyvi Salome</span>
             </div>
           </div>
         </footer>
