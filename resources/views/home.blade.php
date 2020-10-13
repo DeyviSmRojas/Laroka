@@ -13,11 +13,11 @@
 <div class="card shadow mb-4">
   <div class="card-header py-3">
     <h6 class="m-0 font-weight-bold text-primary">Lista de Tipo de Ladrillos</h6>
-    <span class="badge badge-success">EL COLOR VERDE REPRESENTA QUE FALTA DE 1 DIA A MAS</span>
+    <span class="badge badge-success">VERDE FALTA 1 DIA A MAS</span>
     <br>
-    <span class="badge badge-warning">EL COLOR AMARILLO REPRESENTA QUE ES EL DIA DE LA ENTREGA</span>
+    <span class="badge badge-warning">AMARILLO DIA DE LA ENTREGA</span>
     <br>
-    <span class="badge badge-danger">EL COLOR ROJO REPRESENTA QUE YA PASO EL DIA DE ENTREGA</span>
+    <span class="badge badge-danger">ROJO PASO EL DIA DE ENTREGA</span>
   </div>
   <div class="card-body">
     <div class="table-responsive">
