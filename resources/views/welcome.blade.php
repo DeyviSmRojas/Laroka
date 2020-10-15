@@ -12,7 +12,7 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: rgba(210,255,82,1);;
+                background-color: #a8dda8;
                 color: #555555;
                 font-family: 'Impact', sans-serif;
                 font-weight: 200;
