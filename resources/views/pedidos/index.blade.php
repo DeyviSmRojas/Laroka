@@ -170,7 +170,7 @@
                     <td>{{ $pedido->user->name }}</td>
                     <td>
                         <a href="{{route('pedidos.edit',$pedido->id)}}" class="btn btn-warning btn-circle"> <i class="fas fa-pen"></i> </a>
-                        <form method="post" action="{{ route('pedidos.destroy',$pedido->id) }}">
+                        <form method="post" action="{{ route('pedidos.destroy',$pedido->id) }}" class="d-inline">
                             @csrf
                             @method('DELETE')
                             <button class="btn btn-danger btn-circle" type="submit">X</button>
