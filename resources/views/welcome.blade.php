@@ -12,9 +12,9 @@
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #e8ffff;
-                color: #150485;
-                font-family: 'Nunito', sans-serif;
+                background-color: rgba(210,255,82,1);;
+                color: #555555;
+                font-family: 'Impact', sans-serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
