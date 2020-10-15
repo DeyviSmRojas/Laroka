@@ -118,9 +118,9 @@
       <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
         <thead>
           <tr>
-            <th>CODIGO</th>
-            <th>FECHA_ENTREGA</th>
-            <th>CANTIDAD</th>
+            <th>COD.</th>
+            <th>FECHA</th>
+            <th>CANT.</th>
             <th>TIPO_LADRILLO</th>
             <th>TIPO_ENTREGA</th>
             <th>CLIENTE</th>
@@ -151,6 +151,7 @@
                     <td>{{ $pedido->delivery_type }}</td>
                     <td>{{ $pedido->customer->name }}</td>
                     <td>
+                        <a href="{{route('pedidos.edit')}}"> <i class="fas fa-pen"></i> </a>
                         <form method="post" action="{{ route('pedidos.cambio',$pedido->id) }}">
                             @csrf
                             @method('DELETE')

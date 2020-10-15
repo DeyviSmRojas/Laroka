@@ -106,7 +106,7 @@ class PedidoController extends Controller
      */
     public function edit(Pedido $pedido)
     {
-        //
+        return view('pedidos.edit', compact('pedido'));
     }
 
     /**
