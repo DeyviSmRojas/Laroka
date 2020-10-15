@@ -151,7 +151,7 @@
                     <td>{{ $pedido->delivery_type }}</td>
                     <td>{{ $pedido->customer->name }}</td>
                     <td>
-                        <a href="{{route('pedidos.edit',$pedido->id)}}"> <i class="fas fa-pen"></i> </a>
+                        
                         <form method="post" action="{{ route('pedidos.cambio',$pedido->id) }}">
                             @csrf
                             @method('DELETE')
@@ -169,6 +169,7 @@
                     <td>{{ $pedido->horno->name }}</td>
                     <td>{{ $pedido->user->name }}</td>
                     <td>
+                        <a href="{{route('pedidos.edit',$pedido->id)}}" class="btn btn-warning btn-circle"> <i class="fas fa-pen"></i> </a>
                         <form method="post" action="{{ route('pedidos.destroy',$pedido->id) }}">
                             @csrf
                             @method('DELETE')
